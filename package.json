@@ -9,5 +9,21 @@
   "scripts": {
     "start:frontend": "yarn workspace @balijs/www dev",
     "build:frontend": "yarn workspace @balijs/www build"
+  },
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
+    "prettier": "^1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+ },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
