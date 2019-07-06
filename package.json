@@ -1,0 +1,13 @@
+{
+  "name": "balijs",
+  "version": "1.0.0",
+  "license": "Unlicensed",
+  "private": true,
+  "workspaces": [
+    "www"
+  ],
+  "scripts": {
+    "start:frontend": "yarn workspace @balijs/www dev",
+    "build:frontend": "yarn workspace @balijs/www build"
+  }
+}
