@@ -7,7 +7,7 @@ const Headline3Styled = styled.h3`
 
 /*
 props = {
-    align: 'auto' | 'left' | 'right' | 'center' | 'justify'
+    align: 'auto' | 'left' | 'right' | 'center' | 'justify',
 }
 */
 
