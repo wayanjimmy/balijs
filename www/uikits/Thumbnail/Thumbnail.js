@@ -1,5 +1,5 @@
 import React from 'react';
-import stytled from 'styled-components';
+import styled from 'styled-components';
 
 const ThumbnailContainer = styled.div`
   width: 100%;
