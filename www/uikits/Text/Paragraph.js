@@ -1,11 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ParagraphStyled = styled.p``;
+/*
+props = {
+  align: 'auto' | 'left' | 'right' | 'center' | 'justify',
+}
+*/
+
+const ParagraphStyled = styled.p`
+  text-align: ${props => props.align};
+`;
 
 function Paragraph(props) {
-  const { style } = props;
-  return <ParagraphStyled style={style}>{props.children}</ParagraphStyled>;
+  const { style, ...otherProps } = props;
+  return (
+    <ParagraphStyled style={style} {...otherProps}>
+      {props.children}
+    </ParagraphStyled>
+  );
 }
 
 export default Paragraph;

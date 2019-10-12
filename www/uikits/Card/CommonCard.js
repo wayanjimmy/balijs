@@ -20,8 +20,8 @@ function CommonCard(props) {
   return (
     <Container>
       <Thumbnail src={data.cover} alt={data.title} />
-      <Headline3>{data.title || ''}</Headline3>
-      <Paragraph>{data.subtitle || ''}</Paragraph>
+      <Headline3 align="center">{data.title || ''}</Headline3>
+      <Paragraph align="center">{data.subtitle || ''}</Paragraph>
     </Container>
   );
 }
