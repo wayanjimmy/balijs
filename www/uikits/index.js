@@ -1,6 +1,6 @@
-export { CommonCard } from './Card';
+export { CommonCard, EventCard } from './Card';
 
-export { default as Column, Columns } from './Commons/Column';
+export { Column, Columns, View } from './Commons';
 
 export { Thumbnail } from './Thumbnail';
 
