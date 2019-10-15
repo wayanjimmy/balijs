@@ -4,6 +4,8 @@ export const colorPalette = {
 
 export const fontColors = {
   white: '#FFFFFF',
+  black: '#000000',
+  pencil: '#636981',
 };
 
 export const fontStyle = {
