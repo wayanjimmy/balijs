@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="736.948 3598 12.052 16.182">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9095a6;
+      }
+    </style>
+  </defs>
+  <g id="placeholder-point" transform="translate(736.948 3598)">
+    <g id="Group_2454" data-name="Group 2454" transform="translate(0)">
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="2.723" cy="2.723" rx="2.723" ry="2.723" transform="translate(3.303 3.303)"/>
+      <path id="Path_2419" data-name="Path 2419" class="cls-1" d="M73.757,16.182s6.026-6.828,6.026-10.156a6.026,6.026,0,1,0-12.052,0C67.731,9.354,73.757,16.182,73.757,16.182Zm0-14.317a4.16,4.16,0,1,1-4.16,4.16A4.16,4.16,0,0,1,73.757,1.865Z" transform="translate(-67.731)"/>
+    </g>
+  </g>
+</svg>
