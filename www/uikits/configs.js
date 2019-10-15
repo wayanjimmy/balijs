@@ -5,3 +5,8 @@ export const colorPalette = {
 export const fontColors = {
   white: '#FFFFFF',
 };
+
+export const fontStyle = {
+  openSans: `'Open Sans', sans-serif`,
+  playFair: `'Playfair Display', serif`,
+};
