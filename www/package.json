@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "storybook": "start-storybook -c ./uikits/.storybook/ -p 9001",
     "start": "next start"
   },
   "dependencies": {
@@ -17,6 +18,9 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/react": "^5.2.4",
+    "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.6"
   }
 }
