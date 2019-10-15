@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@storybook/react/demo';
 
 import { CommonButton } from '../index.js';
 
