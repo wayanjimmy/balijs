@@ -4,6 +4,8 @@ export { CommonCard, EventCard } from './Card';
 
 export { Column, Columns, View } from './Commons';
 
+export { default as Icons } from './Icons';
+
 export { Thumbnail } from './Thumbnail';
 
 export { Headline2, Headline3, Paragraph } from './Text';
