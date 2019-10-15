@@ -26,21 +26,21 @@ const Home = () => (
       <div className="columns">
         <div className="column">
           <ActivityContainer>
-            <img src="http://via.placeholder.com/200x200" alt="Image 1" />
+            <img src="https://via.placeholder.com/200x200" alt="Image 1" />
             <h3>Meeting</h3>
             <p>Dinner still nation challenge subject explain hope society.</p>
           </ActivityContainer>
         </div>
         <div className="column">
           <ActivityContainer>
-            <img src="http://via.placeholder.com/200x200" alt="Image 1" />
+            <img src="https://via.placeholder.com/200x200" alt="Image 1" />
             <h3>Learning</h3>
             <p>Dinner still nation challenge subject explain hope society.</p>
           </ActivityContainer>
         </div>
         <div className="column">
           <ActivityContainer>
-            <img src="http://via.placeholder.com/200x200" alt="Image 1" />
+            <img src="https://via.placeholder.com/200x200" alt="Image 1" />
             <h3>Creating</h3>
             <p>Dinner still nation challenge subject explain hope society.</p>
           </ActivityContainer>
@@ -60,7 +60,7 @@ const Home = () => (
           <p>Nam numquam eius repellendus alias voluptates.</p>
         </div>
         <div className="column">
-          <img src="http://via.placeholder.com/300x300" alt="Event 1" />
+          <img src="https://via.placeholder.com/300x300" alt="Event 1" />
         </div>
       </article>
     </SectionContainer>
