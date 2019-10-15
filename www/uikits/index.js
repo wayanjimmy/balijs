@@ -1,3 +1,5 @@
+export { CommonButton } from './Button';
+
 export { CommonCard, EventCard } from './Card';
 
 export { Column, Columns, View } from './Commons';
