@@ -9,7 +9,7 @@ export const eventCard = () => {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Icons iconName="calendar" path="http://localhost:3000" />
       </div>
-      <div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Icons iconName="location-point" path="http://localhost:3000" />
       </div>
     </React.Fragment>
